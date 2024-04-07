@@ -385,6 +385,22 @@
     [
       "9848a691-cd53-4e57-940a-e5db2e63f9a1",
       "Root"
+    ],
+    [
+      "74833353-0f75-43d3-9478-4bee3de08678",
+      "Micrcontroller STM32C0"
+    ],
+    [
+      "352e78a4-2a79-45e6-85ec-1c7b48382c61",
+      "USB to UART"
+    ],
+    [
+      "03da6596-1021-463a-9d9b-2aab5b5240f6",
+      "SD_CARD"
+    ],
+    [
+      "fed4e8b7-2c37-42f6-8803-c612b1069bda",
+      "Power"
     ]
   ],
   "text_variables": {}
