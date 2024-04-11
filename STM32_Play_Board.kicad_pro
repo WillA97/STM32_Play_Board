@@ -401,6 +401,10 @@
     [
       "fed4e8b7-2c37-42f6-8803-c612b1069bda",
       "Power"
+    ],
+    [
+      "d5379f9a-c6cd-4eeb-ac1f-88503eaa88e5",
+      "Voltage and Current Measurement"
     ]
   ],
   "text_variables": {}

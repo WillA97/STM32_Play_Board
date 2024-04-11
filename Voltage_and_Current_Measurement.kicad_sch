@@ -1,0 +1,27 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "302c2ed8-f206-4641-83b1-27d9821e04cd")
+	(paper "A4")
+	(lib_symbols)
+	(text_box "Amplifier for voltage scales it from -20 - +20 to 0 to +3.3\n"
+		(exclude_from_sim no)
+		(at 66.04 67.31 0)
+		(size 31.75 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 97 255 80 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "45188365-7d2b-4b8b-931f-2fb3f92db8ee")
+	)
+)

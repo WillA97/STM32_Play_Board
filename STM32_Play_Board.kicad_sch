@@ -125,6 +125,44 @@
 		)
 	)
 	(sheet
+		(at 175.26 27.94)
+		(size 48.26 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 22 180 177 1.0000)
+		)
+		(uuid "d5379f9a-c6cd-4eeb-ac1f-88503eaa88e5")
+		(property "Sheetname" "Voltage and Current Measurement"
+			(at 175.26 26.5934 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Voltage_and_Current_Measurement.kicad_sch"
+			(at 175.26 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32_Play_Board"
+				(path "/9848a691-cd53-4e57-940a-e5db2e63f9a1"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 110.49 73.66)
 		(size 48.26 34.29)
 		(fields_autoplaced yes)
