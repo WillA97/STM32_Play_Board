@@ -2363,7 +2363,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 110.49) (xy 256.54 109.22)
+			(xy 256.54 110.49) (xy 256.54 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2843,7 +2843,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 101.6) (xy 256.54 80.01)
+			(xy 256.54 91.44) (xy 256.54 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3284,52 +3284,8 @@
 		)
 		(uuid "9bef8b81-7caf-40ae-ab47-9237125a4ac5")
 	)
-	(global_label "i_supply"
-		(shape input)
-		(at 92.71 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "03bb0752-6212-4b80-95e5-2b4880044880")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.3755 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3V3_Meas"
-		(shape input)
-		(at 248.92 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1c1da230-0ca9-4cb2-939a-c0cd0a66e2f5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.6699 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "-3V3_Supply"
-		(shape input)
+	(hierarchical_label "-3V3_Supply"
+		(shape passive)
 		(at 113.03 167.64 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3338,17 +3294,31 @@
 			)
 			(justify left)
 		)
-		(uuid "e23b52ad-3a8c-48bf-8cfc-fa1ce2d09f90")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.3521 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
+		(uuid "73670790-3861-4179-b970-4bc48b49ead2")
+	)
+	(hierarchical_label "+3V3_Meas"
+		(shape passive)
+		(at 248.92 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "8823e644-9978-4209-bebe-75cbac2be02e")
+	)
+	(hierarchical_label "i_Supply"
+		(shape passive)
+		(at 92.71 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8277fdd-2bce-4f8c-94d2-aa6440a255ce")
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -3375,7 +3345,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 179.324 30.226 90)
 			(effects
 				(font
@@ -3587,7 +3557,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 49.53 46.99 0)
 			(effects
 				(font
@@ -3655,7 +3625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 22.86 55.88 0)
 			(effects
 				(font
@@ -3940,7 +3910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 155.9052 120.65 0)
 			(effects
 				(font
@@ -3984,7 +3954,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 256.54 105.41 0)
+		(at 256.54 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3993,7 +3963,7 @@
 		(fields_autoplaced yes)
 		(uuid "240c81f9-d3b7-4334-85d2-f3a29e96903d")
 		(property "Reference" "C18"
-			(at 260.35 104.1399 0)
+			(at 260.35 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4002,7 +3972,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 260.35 106.6799 0)
+			(at 260.35 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4010,8 +3980,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 257.5052 109.22 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 257.5052 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4020,7 +3990,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 105.41 0)
+			(at 256.54 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4029,7 +3999,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 256.54 105.41 0)
+			(at 256.54 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4145,7 +4115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 75.8952 76.2 0)
 			(effects
 				(font
@@ -4346,7 +4316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 199.0852 121.92 0)
 			(effects
 				(font
@@ -4484,7 +4454,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 244.856 101.854 90)
 			(effects
 				(font
@@ -4618,7 +4588,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
 			(at 22.86 46.99 0)
 			(effects
 				(font
@@ -4684,7 +4654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 157.1752 58.42 0)
 			(effects
 				(font
@@ -4754,7 +4724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 115.2652 58.42 0)
 			(effects
 				(font
@@ -5032,7 +5002,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 94.234 34.544 90)
 			(effects
 				(font
@@ -5099,7 +5069,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 179.324 42.926 90)
 			(effects
 				(font
@@ -5297,7 +5267,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 244.856 91.694 90)
 			(effects
 				(font
@@ -5349,7 +5319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5da470b-53b0-4d28-9ffc-a7dff6a15fe7")
-		(property "Reference" "U5"
+		(property "Reference" "U12"
 			(at 214.63 30.48 0)
 			(effects
 				(font
@@ -5365,7 +5335,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "STM32_Play_Board:SOIC-14_3.9x8.7mm_P1.27mm_STM32_Play"
 			(at 213.36 38.1 0)
 			(effects
 				(font
@@ -5437,7 +5407,7 @@
 		(instances
 			(project "STM32_Play_Board"
 				(path "/9848a691-cd53-4e57-940a-e5db2e63f9a1/fed4e8b7-2c37-42f6-8803-c612b1069bda"
-					(reference "U5")
+					(reference "U12")
 					(unit 3)
 				)
 			)
@@ -5453,7 +5423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8f45bb4-101d-454e-913b-56f06b8239d7")
-		(property "Reference" "U5"
+		(property "Reference" "U12"
 			(at 77.47 157.48 0)
 			(effects
 				(font
@@ -5469,7 +5439,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "STM32_Play_Board:SOIC-14_3.9x8.7mm_P1.27mm_STM32_Play"
 			(at 76.2 165.1 0)
 			(effects
 				(font
@@ -5541,7 +5511,7 @@
 		(instances
 			(project "STM32_Play_Board"
 				(path "/9848a691-cd53-4e57-940a-e5db2e63f9a1/fed4e8b7-2c37-42f6-8803-c612b1069bda"
-					(reference "U5")
+					(reference "U12")
 					(unit 4)
 				)
 			)
@@ -5640,7 +5610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 89.8652 76.2 0)
 			(effects
 				(font
@@ -5841,7 +5811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 158.4452 90.17 0)
 			(effects
 				(font
@@ -5909,7 +5879,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 49.53 35.56 0)
 			(effects
 				(font
@@ -6041,7 +6011,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 49.784 169.164 90)
 			(effects
 				(font
@@ -6174,7 +6144,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 75.184 183.134 90)
 			(effects
 				(font

@@ -3133,8 +3133,8 @@
 		)
 		(uuid "a039a795-30b3-4b52-8788-2a1db4293a4f")
 	)
-	(global_label "Curr_Meas"
-		(shape input)
+	(hierarchical_label "Curr_meas"
+		(shape passive)
 		(at 177.8 148.59 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3143,20 +3143,10 @@
 			)
 			(justify left)
 		)
-		(uuid "c67e657a-2c52-40a6-bdae-185592d505ba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.4613 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "38dc89c5-5f1e-40e4-b663-2081b5605582")
 	)
-	(global_label "Volt_meas"
-		(shape input)
+	(hierarchical_label "Volt_meas"
+		(shape passive)
 		(at 266.7 54.61 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3165,17 +3155,7 @@
 			)
 			(justify left)
 		)
-		(uuid "df9757bd-0d4b-45b3-99a2-71cb2d98b6ff")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.2403 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "7fd7692f-f2e0-46fb-9388-190441b0fca9")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -3203,7 +3183,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 99.06 29.5148 0)
 			(effects
 				(font
@@ -3231,10 +3211,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "9bb08176-4d39-458f-9357-405fe6011c5c")
+			(uuid "d8f8fea3-5c35-40f0-b159-fa8229f2c690")
 		)
 		(pin "1"
-			(uuid "17822994-1a63-4fd4-8217-935c87960d66")
+			(uuid "1df97b2c-bbb9-48b4-89d5-b4a74ebf4dd9")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -3273,7 +3253,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 197.1548 58.42 0)
 			(effects
 				(font
@@ -3301,10 +3281,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "b0d228f1-5b1a-40bc-a526-6432d57bc0a3")
+			(uuid "62b84529-008d-45cf-8749-76d83ffe8c1b")
 		)
 		(pin "1"
-			(uuid "4445b4cc-b7ca-4369-a2a5-b08b66847690")
+			(uuid "110e3f47-8d1e-4cb4-a392-599b82542083")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -3370,7 +3350,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0220981f-60c5-42d0-9970-c056e19d3995")
+			(uuid "65f61a35-3131-4749-834b-86b13b76cdd1")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -3406,7 +3386,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 162.814 51.054 90)
 			(effects
 				(font
@@ -3434,10 +3414,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2ba44720-470f-4aca-bc2a-fab4f7fec45f")
+			(uuid "3ef30e22-5b0b-4ebe-95b2-53ca70c5d3ba")
 		)
 		(pin "2"
-			(uuid "13bbeedd-90eb-4ba8-bf5e-8652f4f16c4d")
+			(uuid "8d57d466-e5c1-4db9-9a47-5d9d860c3c4d")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -3476,7 +3456,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 86.6648 156.21 0)
 			(effects
 				(font
@@ -3504,10 +3484,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "c1d9b9e1-0d1f-4f76-b8ab-9e194b22c2dc")
+			(uuid "6b4e1487-9c26-4eee-9260-17ad7398f26d")
 		)
 		(pin "1"
-			(uuid "9f21c118-ed2d-485f-9382-51c96e50952f")
+			(uuid "d6a93b68-0a9c-42cf-b54d-1bf45e71f9a9")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -3573,7 +3553,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "29173b95-476b-4da1-aa0f-f5a0601f9d04")
+			(uuid "a49f2a64-8192-40af-9155-2a435a9c4eae")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -3639,7 +3619,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "800b016d-e223-4b8c-9486-5dc8c759a7df")
+			(uuid "1ca240e0-e59a-4eb2-a244-239ddc9f15b8")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -3678,7 +3658,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 212.3948 83.82 0)
 			(effects
 				(font
@@ -3706,10 +3686,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "8a4e3cfb-688a-47ec-aecc-319ca9aa64f5")
+			(uuid "40e208c1-5f06-4993-ad55-d4743263d586")
 		)
 		(pin "1"
-			(uuid "4672731b-86ac-4b37-b9dd-719688d64abe")
+			(uuid "5fa27d45-90d5-4b5c-8806-c5711ce39fff")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -3746,7 +3726,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "STM32_Play_Board:SOIC-14_3.9x8.7mm_P1.27mm_STM32_Play"
 			(at 231.14 52.07 0)
 			(effects
 				(font
@@ -3792,7 +3772,7 @@
 			(uuid "e163efef-5da7-4070-94e1-d0ec463d8fec")
 		)
 		(pin "1"
-			(uuid "57a6f6eb-7f4c-4a4c-b4be-b4b46daea466")
+			(uuid "9b3bdbb1-5c86-43a6-b0a8-7ed1f47d9d06")
 		)
 		(pin "14"
 			(uuid "8f8a211a-7674-404d-aa05-c9080651edf8")
@@ -3804,10 +3784,10 @@
 			(uuid "b14d19ef-f5cb-452b-b34d-9b2afc819099")
 		)
 		(pin "3"
-			(uuid "c2e0de2d-7d87-44b7-8339-5ce55170f3ac")
+			(uuid "65cddd28-1cca-4697-8ed1-20e253b2ea59")
 		)
 		(pin "2"
-			(uuid "c8712b8e-d460-4123-9960-09f3b541c209")
+			(uuid "085f1b10-ca24-401d-9574-7fa803c37441")
 		)
 		(pin "4"
 			(uuid "274057dc-2017-4ed7-8228-080c19b4105d")
@@ -3849,7 +3829,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 119.126 34.544 90)
 			(effects
 				(font
@@ -3877,10 +3857,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1e4233c4-e44c-45a4-a7ce-18f2d9dcd653")
+			(uuid "5ad36e00-7cb1-4765-bbbf-1d93dbcbbbac")
 		)
 		(pin "2"
-			(uuid "bccc112b-590e-4b3d-bd61-23a627ee1ef3")
+			(uuid "3e4125c8-6e6f-4a7d-b65e-fd644b860a59")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -3917,7 +3897,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:Banana_Jack_1Pin"
 			(at 62.23 40.64 0)
 			(effects
 				(font
@@ -3945,7 +3925,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "53f43a9c-f415-4939-948c-5fc7852a0585")
+			(uuid "1201cffa-845b-4693-a85c-97caf40dc9bf")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -3984,7 +3964,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 259.3848 82.55 0)
 			(effects
 				(font
@@ -4012,10 +3992,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ee021c73-6e9d-4f99-a4f1-6eb96ad7e0fe")
+			(uuid "f857d236-78f0-4677-bd7b-b22a55426b16")
 		)
 		(pin "1"
-			(uuid "ef597ffe-cf51-448e-ab17-8a2103cdc39a")
+			(uuid "ee719c44-a8c8-468d-b1db-6e13b5d04583")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -4083,28 +4063,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "877eef16-382a-4e0a-a189-74b476f75ab2")
+			(uuid "a9140a20-b40d-4020-acab-70c8cd440df4")
 		)
 		(pin "7"
-			(uuid "1348753f-1f73-4aae-9a50-02d6a3231a9f")
+			(uuid "d18aa841-a7e5-4ab7-833c-0090edd25df2")
 		)
 		(pin "3"
-			(uuid "65839964-02d7-474f-99c5-d9816600bd7d")
+			(uuid "480e7a44-c2e1-4ba5-857d-880d546453d1")
 		)
 		(pin "1"
-			(uuid "1a9d6e04-798a-41e1-a62c-8c35dff31f34")
+			(uuid "92c987ef-d9f0-4d13-8ff5-2200d37050c5")
 		)
 		(pin "2"
-			(uuid "cd2a2b2e-8a8e-40ea-b424-3b9d0a9e0ec7")
+			(uuid "a82096ce-ba06-461b-9da7-bc635494184e")
 		)
 		(pin "6"
-			(uuid "77683bbf-28ea-448d-9a17-69de6599501c")
+			(uuid "805cb357-9b78-4e5f-992f-3d4bfae06c19")
 		)
 		(pin "5"
-			(uuid "cfb2985b-4fd0-4bfa-9799-c48e0ad29b90")
+			(uuid "7486ec3c-5ffb-4c1d-8848-1c66bd962df6")
 		)
 		(pin "8"
-			(uuid "952a8c22-ddd0-4a32-8f17-2c0f032019cd")
+			(uuid "7bb46ef1-c50a-485e-b8a8-ce677fa2b011")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -4140,7 +4120,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 82.804 39.624 90)
 			(effects
 				(font
@@ -4168,10 +4148,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fee13e63-21e7-40bd-88ec-36a2e2ae81b0")
+			(uuid "3f77a48e-a21e-496e-9907-8b102fa39b5b")
 		)
 		(pin "2"
-			(uuid "d742bf52-36a0-4a9b-b2ce-4924636b98e5")
+			(uuid "d0685b7c-ebfe-491c-b42a-450ad20381ca")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -4237,7 +4217,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a0107b3-1f06-4bf5-bdda-86dd0191c686")
+			(uuid "529f0ece-3ec5-4dbb-ac08-ef49baf047f4")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -4273,7 +4253,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 111.506 53.594 90)
 			(effects
 				(font
@@ -4301,10 +4281,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f8d01ff4-a1ae-400f-88d5-861aa20dae60")
+			(uuid "fac66256-f3e5-4025-80c3-59fe934f6880")
 		)
 		(pin "2"
-			(uuid "0036c247-8589-4f74-8277-55ab1aa642a6")
+			(uuid "a27631d3-d6e5-4aba-8d59-8bef958fb5bf")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -4370,7 +4350,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3cbf4d6e-8f11-4492-a295-eeeca8a8523b")
+			(uuid "d0bf1458-173b-430b-bbac-a5956989b5e8")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -4409,7 +4389,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 160.3248 26.67 0)
 			(effects
 				(font
@@ -4437,10 +4417,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "8f809c1b-290f-49d1-8b27-7fb0d862d1a6")
+			(uuid "c6075af6-83be-493d-9514-0b1b7499a0a5")
 		)
 		(pin "1"
-			(uuid "725ccb2a-c760-4641-9cd1-19ba598b16bb")
+			(uuid "6f09a2e4-1efa-4a52-9893-9ddeab0f28aa")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -4506,7 +4486,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7d5c9994-3287-461e-ae87-25d26e266a69")
+			(uuid "eab9debe-a3f6-4d52-9a7b-74bb219c7491")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -4571,7 +4551,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "412af7eb-c71b-4e90-a0b0-202838292cb9")
+			(uuid "e65b4847-8271-43b2-bb42-8e8202f98dbb")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -4610,7 +4590,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 198.4248 83.82 0)
 			(effects
 				(font
@@ -4638,10 +4618,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "596212fa-85b9-4cde-9821-6d1a258a2a4e")
+			(uuid "e41060e0-8964-4867-8485-b6fea20a71d9")
 		)
 		(pin "1"
-			(uuid "336f046f-4636-4a2e-83a0-894adf507e76")
+			(uuid "7e77aea0-71ce-49a9-a949-da2a1c2dbde2")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -4678,7 +4658,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 85.09 29.5148 0)
 			(effects
 				(font
@@ -4706,10 +4686,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "9b88ace2-e537-4e9d-be98-30a6ed494a68")
+			(uuid "68188ac1-4cb7-4296-83a5-ff3ef873d071")
 		)
 		(pin "1"
-			(uuid "61a5dad8-7810-4105-a920-6e05714740ad")
+			(uuid "d4e41199-97ba-45c1-a520-9b7591a687f9")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -4745,7 +4725,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 188.214 51.054 90)
 			(effects
 				(font
@@ -4773,10 +4753,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5606c215-406e-483e-87f5-51aa1710c6a9")
+			(uuid "12aa03f1-bd39-4134-b785-608cccc02e83")
 		)
 		(pin "2"
-			(uuid "2779e3d9-8d5f-4f16-b62b-e1a5db67dd47")
+			(uuid "32138f23-4791-43a3-8269-19c2bac5a1de")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -4813,7 +4793,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 106.68 68.8848 0)
 			(effects
 				(font
@@ -4841,10 +4821,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "9d161bdc-2558-49c9-9ead-b136c0338685")
+			(uuid "46aaf4c5-aac2-436d-890c-d6d666569dd9")
 		)
 		(pin "1"
-			(uuid "cebc8d4c-04ba-4e50-a577-d29d20565e77")
+			(uuid "e8637be6-73a7-4fe6-a4ab-13bfc097dee6")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -4883,7 +4863,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 93.0148 123.19 0)
 			(effects
 				(font
@@ -4911,10 +4891,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "779dbe83-5638-4cd1-8203-65a5b474c54a")
+			(uuid "f3c388a8-dbc0-4c67-af25-de91d8b6ce02")
 		)
 		(pin "1"
-			(uuid "4236e2ea-bff0-4e8d-acb6-db3fd9c0bddc")
+			(uuid "e98515cf-42bb-4859-a9c6-112fe52c0af3")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -4950,7 +4930,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:Banana_Jack_1Pin"
 			(at 35.56 151.13 0)
 			(effects
 				(font
@@ -4978,7 +4958,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d737cfa2-a94a-4901-85d3-42920981acc4")
+			(uuid "809fa3a0-9ce4-4cde-accf-31e05410b2b0")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -5017,7 +4997,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 103.1748 154.94 0)
 			(effects
 				(font
@@ -5045,10 +5025,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "c396a98b-cc70-40f9-9af2-2785ea199d39")
+			(uuid "193f636a-6a9e-46e3-a401-d56fbdbca29a")
 		)
 		(pin "1"
-			(uuid "d5cbd54e-fb73-4c00-b697-ab550305f4ef")
+			(uuid "7f258978-c6d7-42c0-9937-dab0233a8156")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -5085,7 +5065,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 86.36 68.8848 0)
 			(effects
 				(font
@@ -5113,10 +5093,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "bdc68f6d-6771-4adf-b706-bbb06c71b7ce")
+			(uuid "ab970221-42f9-4f9b-ae7b-9a4f50fa4604")
 		)
 		(pin "1"
-			(uuid "038a4482-d533-4ee0-8399-878bd3822ed6")
+			(uuid "5ed8180c-89f4-490b-a117-e009e30a3c0b")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -5182,7 +5162,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "debf3505-fcff-4b54-8702-9ee06fc6f191")
+			(uuid "710df0c4-8f7a-43ed-88a5-07c1cb1d13b8")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -5248,7 +5228,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "43f73ceb-4c33-49db-825d-705f255b1b4d")
+			(uuid "23be9f9f-8de5-45ee-bc9f-c254808d022a")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -5284,7 +5264,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 84.074 78.994 90)
 			(effects
 				(font
@@ -5312,10 +5292,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "24c1e71a-3214-4708-84bb-a89cbc21108c")
+			(uuid "de9f1abd-e663-4ed3-b859-0f89530cc4f9")
 		)
 		(pin "2"
-			(uuid "c3bc90b3-db24-49dd-9541-387f2c511810")
+			(uuid "14a581ef-9a06-438f-b66f-5215b98995ed")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -5381,7 +5361,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d69fe0e3-3194-412f-a467-43f472309315")
+			(uuid "4b275090-aef6-4817-b00a-cdf8d5d7d1c7")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -5420,7 +5400,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 146.3548 26.67 0)
 			(effects
 				(font
@@ -5448,10 +5428,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e3926a86-4cae-4b65-869e-f614ab546c7d")
+			(uuid "4064f52f-31c9-435f-a1d0-97eb2bf9764c")
 		)
 		(pin "1"
-			(uuid "84224bcf-0ef6-4ba9-b863-5fe4bbb6cae2")
+			(uuid "c989df14-0d1c-434f-9aed-db3d4940596a")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -5517,7 +5497,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "789f5198-23d5-4c4c-943f-fd534df636c3")
+			(uuid "cbf75758-d04c-46f4-85bb-69f37cf5d55b")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -5556,7 +5536,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 245.4148 82.55 0)
 			(effects
 				(font
@@ -5584,10 +5564,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "0f150057-838d-4be5-83e4-0767d41e563b")
+			(uuid "9cc3764f-e910-4800-9e7e-f486842c9bf8")
 		)
 		(pin "1"
-			(uuid "4be83bbb-4484-4e2d-b3b4-6a0ef4cc1ede")
+			(uuid "448b0078-01ae-4df2-be51-30581497e668")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -5623,7 +5603,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:Banana_Jack_1Pin"
 			(at 34.29 140.97 0)
 			(effects
 				(font
@@ -5651,7 +5631,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a25e3a8-462c-4418-9987-0e856573af91")
+			(uuid "ea50b5c5-b6cd-4039-b5c5-bee82b4cea58")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -5687,7 +5667,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 103.124 78.994 90)
 			(effects
 				(font
@@ -5715,10 +5695,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "18873aa9-d1d2-452a-800a-e2d5b47f85b0")
+			(uuid "f1bbe3f6-56a3-40e5-9d72-c928e2c2d408")
 		)
 		(pin "2"
-			(uuid "10c9f1a3-0061-41ff-abb5-e16a20a94542")
+			(uuid "d99f8978-444a-4f72-891a-eef834a9ebd1")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -5757,7 +5737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "STM32_Play_Board:SOIC-14_3.9x8.7mm_P1.27mm_STM32_Play"
 			(at 228.6 85.09 0)
 			(effects
 				(font
@@ -5794,7 +5774,7 @@
 			(uuid "0b8a9c9d-41a9-4607-bdcc-5cd396fffe21")
 		)
 		(pin "11"
-			(uuid "7dd8dd41-f533-41c1-94ee-63144d8092cc")
+			(uuid "faf356ae-0221-4d12-8013-05c5ccaa6643")
 		)
 		(pin "13"
 			(uuid "32210ef7-d368-4c24-86a3-5c46be564fff")
@@ -5821,7 +5801,7 @@
 			(uuid "c8712b8e-d460-4123-9960-09f3b541c20a")
 		)
 		(pin "4"
-			(uuid "274057dc-2017-4ed7-8228-080c19b4105e")
+			(uuid "5fa91b36-1f34-4389-b117-4f67ba525cfa")
 		)
 		(pin "6"
 			(uuid "769471ad-f805-49ec-ad51-467b0760869d")
@@ -5863,7 +5843,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 159.0548 76.2 0)
 			(effects
 				(font
@@ -5891,10 +5871,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "9861bdfc-a82e-430e-b132-91c0bdd2c882")
+			(uuid "53fbf53a-38cf-4e9e-a283-053129180e09")
 		)
 		(pin "1"
-			(uuid "6d2226fe-0a13-4408-a812-a5a786c2c79f")
+			(uuid "b5007b07-cfb9-4322-93f4-36bcfad9064d")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -5930,7 +5910,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 119.126 86.614 90)
 			(effects
 				(font
@@ -5958,10 +5938,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e08de9e-081d-4e6c-bf94-2312b9d31f3b")
+			(uuid "b65987f7-808e-4546-aa74-02fd47799aa0")
 		)
 		(pin "2"
-			(uuid "7e75b8e5-310f-4096-9759-44fd529c930d")
+			(uuid "78962837-00aa-4bdc-9bae-c8d96e64bcb6")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -5997,7 +5977,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:Banana_Jack_1Pin"
 			(at 62.23 80.01 0)
 			(effects
 				(font
@@ -6025,7 +6005,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a900f8db-ffa2-4b6a-92ae-15484b46650a")
+			(uuid "44eab641-1fa9-4f86-b746-a76b53f781b2")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -6064,7 +6044,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 145.0848 76.2 0)
 			(effects
 				(font
@@ -6092,10 +6072,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ea20ab4b-f9c2-4d40-8fc3-8460a0e5ad80")
+			(uuid "76a40121-d102-472f-8493-22680d52e8e3")
 		)
 		(pin "1"
-			(uuid "6cc693c3-67f5-46a1-9087-1b0008287c0c")
+			(uuid "320fcf77-5423-47c5-b4fc-0d9d6b5fd394")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -6132,7 +6112,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "STM32_Play_Board:SOIC-14_3.9x8.7mm_P1.27mm_STM32_Play"
 			(at 129.54 146.05 0)
 			(effects
 				(font
@@ -6175,7 +6155,7 @@
 			(uuid "32210ef7-d368-4c24-86a3-5c46be565000")
 		)
 		(pin "5"
-			(uuid "e163efef-5da7-4070-94e1-d0ec463d8fee")
+			(uuid "1916c895-8634-4ed8-adb3-5d9846076593")
 		)
 		(pin "1"
 			(uuid "57a6f6eb-7f4c-4a4c-b4be-b4b46daea468")
@@ -6184,7 +6164,7 @@
 			(uuid "8f8a211a-7674-404d-aa05-c9080651edfa")
 		)
 		(pin "7"
-			(uuid "a7a6c8ef-ab0c-4c67-a095-50c357eb89f8")
+			(uuid "4388648d-9a7c-459c-845d-80d949c38fc9")
 		)
 		(pin "12"
 			(uuid "b14d19ef-f5cb-452b-b34d-9b2afc81909b")
@@ -6199,7 +6179,7 @@
 			(uuid "274057dc-2017-4ed7-8228-080c19b4105f")
 		)
 		(pin "6"
-			(uuid "769471ad-f805-49ec-ad51-467b0760869e")
+			(uuid "05425496-a69b-4f62-bcf3-ebf6bf34ad0d")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -6265,7 +6245,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "77d3964e-69e0-4023-a254-b58e138e457e")
+			(uuid "36ae0eaf-beca-4bd9-98ea-49ae2db5ff0d")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -6331,7 +6311,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ded949c2-e153-4403-99ac-11ebfaf5e90e")
+			(uuid "211bd47b-006d-4aab-b92e-1df7653f516c")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -6397,7 +6377,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "438ebc59-deaa-47b4-b7bf-2dcace83ea2b")
+			(uuid "df6951fd-7814-4f13-b907-28bd78314d77")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -6434,7 +6414,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 203.2 40.9448 0)
 			(effects
 				(font
@@ -6462,10 +6442,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "71d38cf0-70d3-41c1-a496-5b51ddcc6601")
+			(uuid "df633d31-7449-4727-990e-224fe7b4fee8")
 		)
 		(pin "1"
-			(uuid "484b4f36-e470-4a0b-a8ed-4a50607d3d2e")
+			(uuid "921be8fc-91c0-4e5b-b94c-f21b5340fcbf")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -6501,7 +6481,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 95.504 39.624 90)
 			(effects
 				(font
@@ -6529,10 +6509,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "760f0e05-4d68-40de-a892-e59be9248a72")
+			(uuid "86d96ba2-2293-4078-963f-94ce5eb62649")
 		)
 		(pin "2"
-			(uuid "2369a622-4875-478c-88c3-6dc1c3f7deed")
+			(uuid "f688d62a-6e09-4fc5-a6d1-4ace1d455b95")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -6568,7 +6548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
 			(at 134.62 52.07 0)
 			(effects
 				(font
@@ -6596,28 +6576,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "6526a1a1-55aa-4f25-a1f8-0629ee525c8a")
+			(uuid "c336e9b6-1440-4f3d-89ac-bd7cfbf2d142")
 		)
 		(pin "6"
-			(uuid "6312e2f5-73da-446e-9f75-c3812c8d31ab")
+			(uuid "2a188447-f4f3-412a-84e5-666c98a9e84c")
 		)
 		(pin "3"
-			(uuid "26e924e6-660b-4c1a-93f0-12bed6411e38")
+			(uuid "eb15223b-44fa-479b-8048-04a84a2e5532")
 		)
 		(pin "7"
-			(uuid "adadc5a4-5e52-4a07-8ccb-08ef0e19a08d")
+			(uuid "72d8f74f-a596-4e40-b145-eb2f79472adc")
 		)
 		(pin "1"
-			(uuid "4d5b4eed-8052-48cc-9e6f-88ef5a9fe8d8")
+			(uuid "30c9bb8d-34fc-49dd-833c-7995b2e29ed0")
 		)
 		(pin "5"
-			(uuid "8f1bae18-6d4c-4949-9e1e-bd5eb3cd0b4d")
+			(uuid "f536284d-f04c-44d6-b68e-40f545be651c")
 		)
 		(pin "8"
-			(uuid "06fc1c15-0126-46dd-a0cd-ed5bfb5fdfc4")
+			(uuid "ac47b24d-58fd-4465-a4d8-085b8a4cc222")
 		)
 		(pin "4"
-			(uuid "2c37279f-1218-4023-b4a8-26705c4b5611")
+			(uuid "ad4403fa-3207-4cf2-9ab5-1367d6bdc50f")
 		)
 		(instances
 			(project "STM32_Play_Board"
@@ -6656,7 +6636,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 106.9848 123.19 0)
 			(effects
 				(font
@@ -6684,10 +6664,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "b69b70c3-a7e3-4631-8445-7f55d3a074fb")
+			(uuid "22231393-5f02-4ab7-9a9b-a46fc7c0e01f")
 		)
 		(pin "1"
-			(uuid "a88c5dcd-603a-44cb-a379-bac8e3805628")
+			(uuid "771f8216-4c88-41ae-a25a-206dc535504c")
 		)
 		(instances
 			(project "STM32_Play_Board"
