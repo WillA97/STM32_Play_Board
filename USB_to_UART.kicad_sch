@@ -1720,6 +1720,18 @@
 		(uuid "42671b6d-639d-4ebc-9e2f-828d839e7f81")
 	)
 	(junction
+		(at 153.67 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c34c323-adac-4ac4-86fb-3855ca820ed2")
+	)
+	(junction
+		(at 153.67 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c5376a4-8008-4325-ad14-ffe572d99a38")
+	)
+	(junction
 		(at 85.09 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1742,6 +1754,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3adc41d-0bc1-4ffb-8c89-8b3ac72153ab")
+	)
+	(junction
+		(at 166.37 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2e29059-3b5d-4120-85e8-1e5dc3983526")
 	)
 	(junction
 		(at 234.95 63.5)
@@ -1813,6 +1831,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 54.61) (xy 139.7 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12eafe25-101b-4d9c-a10e-10cd0eb06f8a")
+	)
+	(wire
+		(pts
 			(xy 85.09 43.18) (xy 85.09 45.72)
 		)
 		(stroke
@@ -1840,6 +1868,16 @@
 			(type default)
 		)
 		(uuid "2032fd08-9bef-4d4d-ae1a-cb17e5e73be6")
+	)
+	(wire
+		(pts
+			(xy 153.67 40.64) (xy 139.7 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21ab7e39-4e7d-4f2f-ace6-0524f0687405")
 	)
 	(wire
 		(pts
@@ -2003,7 +2041,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 62.23) (xy 166.37 68.58)
+			(xy 166.37 36.83) (xy 166.37 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2073,6 +2111,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 58.42) (xy 153.67 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "882984f6-681c-4fad-bad7-257cf5e4ffc0")
+	)
+	(wire
+		(pts
 			(xy 95.25 100.33) (xy 95.25 102.87)
 		)
 		(stroke
@@ -2100,6 +2148,16 @@
 			(type default)
 		)
 		(uuid "9d017833-8977-4e1c-a7f1-fec702d5d56d")
+	)
+	(wire
+		(pts
+			(xy 166.37 40.64) (xy 166.37 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d1be20a-6604-4e1b-9ae4-73bcd19ea3ea")
 	)
 	(wire
 		(pts
@@ -2283,6 +2341,36 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 40.64) (xy 166.37 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df94911a-0254-413b-9aea-acedcc86eafc")
+	)
+	(wire
+		(pts
+			(xy 153.67 58.42) (xy 153.67 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09639cb-2500-4259-b502-b40193e6d480")
+	)
+	(wire
+		(pts
+			(xy 153.67 54.61) (xy 153.67 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0cee422-5486-48af-b8a4-c8130a03b2f1")
+	)
+	(wire
+		(pts
 			(xy 151.13 76.2) (xy 139.7 76.2)
 		)
 		(stroke
@@ -2323,6 +2411,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 40.64) (xy 139.7 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa2b1adf-5bf7-4d20-ade9-863e7235f780")
+	)
+	(wire
+		(pts
 			(xy 139.7 74.93) (xy 139.7 76.2)
 		)
 		(stroke
@@ -2330,6 +2428,16 @@
 			(type default)
 		)
 		(uuid "fd72fa77-0fb9-422f-b7be-0367a423d08f")
+	)
+	(wire
+		(pts
+			(xy 153.67 46.99) (xy 153.67 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb3ad16-276f-4842-9260-55899b9b1450")
 	)
 	(wire
 		(pts
@@ -2544,7 +2652,7 @@
 				)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "750"
 			(at 237.998 84.836 0)
 			(effects
 				(font
@@ -2589,6 +2697,76 @@
 			(project "STM32_Play_Board"
 				(path "/9848a691-cd53-4e57-940a-e5db2e63f9a1/352e78a4-2a79-45e6-85ec-1c7b48382c61"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.67 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d093381-e214-4b92-a223-e8b406ce32ca")
+		(property "Reference" "C39"
+			(at 157.48 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 uF"
+			(at 157.48 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 154.6352 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1eb7b099-2fb6-4a98-a1b9-2d5b09a9ccae")
+		)
+		(pin "1"
+			(uuid "e22cb248-464a-450a-9c0c-98662555744f")
+		)
+		(instances
+			(project "STM32_Play_Board"
+				(path "/9848a691-cd53-4e57-940a-e5db2e63f9a1/352e78a4-2a79-45e6-85ec-1c7b48382c61"
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -2732,6 +2910,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 153.67 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "303b5c89-e7a0-400e-b0c0-d83ebbf9cb7b")
+		(property "Reference" "#PWR048"
+			(at 153.67 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 153.67 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 153.67 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efc367fa-4fbf-4957-ac72-dc522fb260ff")
+		)
+		(instances
+			(project "STM32_Play_Board"
+				(path "/9848a691-cd53-4e57-940a-e5db2e63f9a1/352e78a4-2a79-45e6-85ec-1c7b48382c61"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 246.38 85.09 0)
 		(unit 1)
@@ -2748,7 +2992,7 @@
 				)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "750"
 			(at 249.428 84.836 0)
 			(effects
 				(font
@@ -2893,7 +3137,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 209.55 85.09 0)
 			(effects
 				(font
@@ -3021,7 +3265,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7 pF"
+		(property "Value" "100 nF"
 			(at 100.33 64.7699 0)
 			(effects
 				(font
@@ -3067,6 +3311,76 @@
 			(project "STM32_Play_Board"
 				(path "/9848a691-cd53-4e57-940a-e5db2e63f9a1/352e78a4-2a79-45e6-85ec-1c7b48382c61"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 139.7 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54674fa2-6b7d-422f-b5df-160422b5fca5")
+		(property "Reference" "C40"
+			(at 143.7036 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 143.7036 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 140.6652 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d60a347d-dba9-40ab-9698-39762479d9fb")
+		)
+		(pin "1"
+			(uuid "02e10c1e-402d-4678-9f49-f71146aac4ad")
+		)
+		(instances
+			(project "STM32_Play_Board"
+				(path "/9848a691-cd53-4e57-940a-e5db2e63f9a1/352e78a4-2a79-45e6-85ec-1c7b48382c61"
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -3250,7 +3564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 209.55 91.44 0)
 			(effects
 				(font
@@ -3567,7 +3881,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 166.37 62.23 0)
+		(at 166.37 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3576,7 +3890,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd1a8d20-5339-40af-888a-074996baf010")
 		(property "Reference" "#PWR05"
-			(at 166.37 66.04 0)
+			(at 166.37 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3585,7 +3899,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 166.37 57.15 0)
+			(at 166.37 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3593,7 +3907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 62.23 0)
+			(at 166.37 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3602,7 +3916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 62.23 0)
+			(at 166.37 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,7 +3925,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 166.37 62.23 0)
+			(at 166.37 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)

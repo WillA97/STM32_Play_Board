@@ -3584,7 +3584,7 @@
 		)
 		(uuid "0581e1b4-bc2d-460b-aae2-1361332706d3")
 	)
-	(hierarchical_label "PA14"
+	(hierarchical_label "DEBUG_SWCLK"
 		(shape passive)
 		(at 231.14 87.63 0)
 		(fields_autoplaced yes)
@@ -3620,7 +3620,7 @@
 		)
 		(uuid "0fc2b8e7-2f0e-4f84-8139-b9a8ecb39276")
 	)
-	(hierarchical_label "PA13"
+	(hierarchical_label "DEBUG_SWDIO"
 		(shape passive)
 		(at 231.14 85.09 0)
 		(fields_autoplaced yes)
@@ -4405,7 +4405,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7 uF"
+		(property "Value" "4.7"
 			(at 27.94 41.9099 0)
 			(effects
 				(font
@@ -4614,7 +4614,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7 uF"
+		(property "Value" "1 nF"
 			(at 73.66 62.2299 0)
 			(effects
 				(font

@@ -596,16 +596,6 @@
 			)
 			(uuid "79ab782d-2dc2-472d-b871-b280157e6823")
 		)
-		(pin "PA13" passive
-			(at 80.01 59.69 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "93f3f305-ea0a-4e9f-964c-9f67f67a165b")
-		)
 		(pin "PA11{slash}PA9" passive
 			(at 80.01 62.23 180)
 			(effects
@@ -615,16 +605,6 @@
 				(justify left)
 			)
 			(uuid "6da4c98e-a2f4-4d27-81e9-f807297daf7d")
-		)
-		(pin "PA14" passive
-			(at 80.01 69.85 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "618c281a-df09-447b-bd48-3ec5e91f2b2d")
 		)
 		(pin "PA12{slash}PA10" passive
 			(at 80.01 57.15 180)
@@ -866,6 +846,26 @@
 			)
 			(uuid "c4c18eaa-d291-4741-a64d-13bbb7c7f7d7")
 		)
+		(pin "DEBUG_SWDIO" passive
+			(at 80.01 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e352405f-9a1d-4630-a645-96429910f065")
+		)
+		(pin "DEBUG_SWCLK" passive
+			(at 80.01 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0f7aa39a-abcc-4510-9bb2-2b9d7a121518")
+		)
 		(instances
 			(project "STM32_Play_Board"
 				(path "/9848a691-cd53-4e57-940a-e5db2e63f9a1"
@@ -1044,16 +1044,6 @@
 			)
 			(uuid "c24dd525-1940-47a4-a1a9-b2a4df73b08d")
 		)
-		(pin "PA13" passive
-			(at 60.96 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "77f602b9-0a20-4863-a6ea-ce575b90fa64")
-		)
 		(pin "PA11{slash}PA9" passive
 			(at 60.96 62.23 0)
 			(effects
@@ -1083,16 +1073,6 @@
 				(justify right)
 			)
 			(uuid "7a7d84cc-6d84-4f58-9eac-3371336efca2")
-		)
-		(pin "PA14" passive
-			(at 60.96 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "9429fec4-3f0f-467c-91df-ebe4130dc1c4")
 		)
 		(pin "PB8" passive
 			(at 60.96 72.39 0)
@@ -1303,6 +1283,26 @@
 				(justify right)
 			)
 			(uuid "45f3d04a-8689-495f-8d93-381ae95d459f")
+		)
+		(pin "DEBUG_SWDIO" passive
+			(at 60.96 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a7d027e8-9544-417c-a266-feb11512a942")
+		)
+		(pin "DEBUG_SWCLK" passive
+			(at 60.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bb29810a-7a68-47fe-a54c-cd85ea63d2cf")
 		)
 		(instances
 			(project "STM32_Play_Board"

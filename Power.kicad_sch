@@ -3971,7 +3971,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 uF"
+		(property "Value" "1 uF"
 			(at 260.35 96.5199 0)
 			(effects
 				(font
@@ -5802,7 +5802,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1 uF"
+		(property "Value" "4.7 uF"
 			(at 147.828 87.63 0)
 			(effects
 				(font
