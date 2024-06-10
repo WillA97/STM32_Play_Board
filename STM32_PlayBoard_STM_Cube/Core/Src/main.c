@@ -48,7 +48,6 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -59,6 +58,8 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+uint8_t data[] = "Hello world\n";
+uint8_t rx_data[1] = "0123";
 
 /* USER CODE END 0 */
 
@@ -99,6 +100,7 @@ int main(void)
   MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
   HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
+  HAL_UART_Receive_IT(&huart1,rx_data,4);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -106,9 +108,10 @@ int main(void)
   while (1)
   {
 
-	  HAL_GPIO_TogglePin(GPIOF, GPIO_PIN_3);
-	  TIM3 ->CCR1 = Ch1_duty;
-	  HAL_Delay(250);
+	//  HAL_GPIO_TogglePin(GPIOF, GPIO_PIN_3);
+	//  TIM3 ->CCR1 = Ch1_duty;
+	//  HAL_UART_Transmit(&huart1, data, 12, 1000);
+	//  HAL_Delay(1000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -151,7 +154,14 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
 
+	HAL_UART_Transmit(&huart1, rx_data, 4, 100);
+	HAL_UART_Receive_IT(&huart1,rx_data,4);
+
+
+}
 /* USER CODE END 4 */
 
 /**
