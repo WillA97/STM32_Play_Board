@@ -48,6 +48,9 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
+uint32_t val = 2456;
+uint32_t* adc_val = &val;
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -58,7 +61,8 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-uint8_t data[] = "Hello world\n";
+uint8_t data[] = "The value of Channel 2 ADC is";
+uint8_t data2[] = "\n\r";
 uint8_t rx_data[1] = "0123";
 
 /* USER CODE END 0 */
@@ -71,7 +75,7 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-	int32_t Ch1_duty = 5000;
+//	int32_t Ch1_duty = 5000;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -107,6 +111,18 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	    HAL_ADC_Start(&hadc1); // start the adc
+	    HAL_ADC_PollForConversion(&hadc1, HAL_MAX_DELAY); // poll for conversion
+
+	    *adc_val = HAL_ADC_GetValue(&hadc1); // get the adc value
+
+	    HAL_ADC_Stop(&hadc1); // stop adc
+
+	  //HAL_UART_Transmit(&huart1, data, sizeof (data), 10000);
+	  HAL_UART_Transmit(&huart1,(uint8_t *) adc_val, 4, HAL_MAX_DELAY);
+	 // HAL_UART_Transmit(&huart1, data2, 4, HAL_MAX_DELAY);
+
+	  HAL_Delay (2000); // wait for 500ms
 
 	//  HAL_GPIO_TogglePin(GPIOF, GPIO_PIN_3);
 	//  TIM3 ->CCR1 = Ch1_duty;
@@ -154,6 +170,7 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
+/*
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
 
@@ -161,7 +178,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 	HAL_UART_Receive_IT(&huart1,rx_data,4);
 
 
-}
+}*/
 /* USER CODE END 4 */
 
 /**

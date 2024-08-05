@@ -5774,7 +5774,7 @@
 			)
 		)
 		(property "Value" "4.7 uF"
-			(at 79.7 55.145 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "cb0ac19a-e936-44ac-8fbf-45884d094897")
 			(effects
@@ -6287,7 +6287,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R26"
-			(at -4.4125 -0.5 0)
+			(at -4.5125 -0.55 0)
 			(layer "F.SilkS")
 			(uuid "560ae8c6-8ac1-4e01-8173-eb6247b1f532")
 			(effects
@@ -24546,7 +24546,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LOGO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
