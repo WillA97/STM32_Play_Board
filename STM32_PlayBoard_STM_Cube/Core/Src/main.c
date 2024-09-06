@@ -19,6 +19,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "adc.h"
+#include "dma.h"
 #include "i2c.h"
 #include "spi.h"
 #include "tim.h"
@@ -96,11 +97,12 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_ADC1_Init();
+  MX_DMA_Init();
   MX_I2C1_Init();
   MX_SPI1_Init();
   MX_USART1_UART_Init();
   MX_USART2_UART_Init();
+  MX_ADC1_Init();
   MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
   HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
@@ -115,8 +117,11 @@ int main(void)
 	    HAL_ADC_PollForConversion(&hadc1, HAL_MAX_DELAY); // poll for conversion
 
 	    *adc_val = HAL_ADC_GetValue(&hadc1); // get the adc value
+	    val = *adc_val;
 
 	    HAL_ADC_Stop(&hadc1); // stop adc
+
+	    val = 103;
 
 	  //HAL_UART_Transmit(&huart1, data, sizeof (data), 10000);
 	  HAL_UART_Transmit(&huart1,(uint8_t *) adc_val, 4, HAL_MAX_DELAY);
